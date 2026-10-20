@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+//se virar int iremos ter problemas casting
+float numerol =9.0f;   //* letra f depois do número para indicar 'float' (convenção do c)
+
+
+double raiz = sqrt(numerol);
+
+printf(" a raiz quadrada de %f é : %f \n", numerol, raiz);
+
+// potÊncia (pow) ~ valor 10
+float x =10.0f;
+float y = 2.0f;
+//resultado do calcúlo
+float resultado = pow(x,y);
+printf("o valor de x: elevado a y: %f é igual a = %f", x,y, resultado);
+
+
+
+return 0;
