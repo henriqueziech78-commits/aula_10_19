@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main ()
+{
+
+char nome [20] = "ana";
+char genero ='F';
+int idade =18;
+float altura = 1.81;
+double salario =1234.56;
+
+
+printf ("ola %s \n",  nome);
+printf ("seu genero é :M(masc)/ F( fem)  %c  \n", genero);
+printf ("sua idade é : %i \n", idade);
+printf ("sua altura é : %.2f \n", altura);
+printf ("seu salario é: %.3f \n", salario);
+
+}
