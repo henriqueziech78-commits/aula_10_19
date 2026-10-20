@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main()
+{
+
+char nome[20];   
+float nota1, nota2, média;
+printf("qual é o seu nome");
+scanf("%s", nome);
+//solicite a primeira nota
+
+printf("digite a sua primeira nota: ");
+scanf("%f, &nota1");
+ 
+//solicite a segunda nota
+
+printf("digite a sua segunda nota: ");
+scanf("%f, &nota2");
+
+//calcule a média
+
+printf(nota1 + nota2)/2;
+
+//exiba o resulado
+printf("a média de %s é: %.2s\n", nome, media);
+
+
+//condição de aprovação simples
+
+return 0; 
+
+
+}
