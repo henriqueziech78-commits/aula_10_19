@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+//entrada de dados com scanf
+char nome[50];
+
+//mensagem para o terminal
+printf("qual é seu nome? ");
+//entrada de dados no terminal
+scanf("%s", nome);
+// saudação
+printf ("olá %\n", nome);
+
+return 0;
+
+}
